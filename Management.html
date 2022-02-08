@@ -10,7 +10,7 @@
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Jobs List</title>
+    <title>Management</title>
   </head>
 
   <body>
@@ -18,17 +18,17 @@
     <!-- nav -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="dash.html">Hi, Paras</a>
+        <a class="navbar-brand" href="index.html">Hi, Paras</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="employes-list.html">Students</a>
+              <a class="nav-link " aria-current="page" href="Students.html">Students</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="jobs-list.html">Management</a>
+              <a class="nav-link" href="Management.html">Management</a>
             </li>
           </ul>
           <form class="d-flex">
@@ -37,7 +37,7 @@
               <button class="btn btn-sm btn-success" type="submit" id="button-addon2"><i class="fa fa-search"></i></button>
             </div>
           </form>
-          <a href="#" class="ml-3 btn btn-sm btn-warning">Log out</a>
+          <a href="login.html" class="ml-3 btn btn-sm btn-warning">Log out</a>
         </div>
       </div>
     </nav>
@@ -48,19 +48,19 @@
            <div class="row mt-5">
                <div class="col-lg-3 md-3">
                    <div class="list-group small">
-                       <div class="list-group-item active">Jobs Data</div>
-                       <a href="#" class="list-group-item "data-toggle="modal" data-target="#add_jobs">Add New Jobs</a>
-                       <a href="jobs-list.html"  class="list-group-item">view all Jobs</a>
+                       <div class="list-group-item active">Management Data</div>
+                       <a href="#" class="list-group-item "data-toggle="modal" data-target="#add_jobs">Add New Teacher</a>
+                       <a href="Management.html"  class="list-group-item">view all Management</a>
                    </div>
                </div>
                <div class="col-lg-9 col-md-9">
                     <table class="table table-striped table-hover bg-light small">
                         <tr class="table-dark">
                             <th>Id</th>
-                            <th>job Name</th>
-                            <th>Details</th>
+                            <th>Name</th>
+                            <th>Detail</th>
                             <th>Edit</th>
-                            <th>Details</th>
+                            <th>Delete</th>
                         </tr>
                         <tr>
                             <td>1</td>
@@ -94,7 +94,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Add Employes Details</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Add Students Details</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
