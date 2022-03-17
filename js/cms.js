@@ -1,10 +1,8 @@
 
+// ------> Login  <-------
 
 let login = document.getElementById("signbtn");
-login.addEventListener("click", loginfunction);
-
-function loginfunction(e){
-  
+login.addEventListener("click", function(e){
   let user = document.getElementById("usertxt").value;
   let pass = document.getElementById("passtxt").value;
 
@@ -12,5 +10,7 @@ function loginfunction(e){
     window.location.href="/dash.html";
   }
   e.preventDefault();
-}
+});
+
+
 
