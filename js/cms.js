@@ -10,7 +10,7 @@ login.addEventListener("click", function(e){
   }
   else{
     const error = document.createElement("p");
-    error.innerHTML = "Invalid Password! Try Again";
+    error.innerHTML = "Invalid Password! Try Again.";
     document.getElementById("error").appendChild(error);
   }
 

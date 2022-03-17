@@ -9,6 +9,9 @@ body{
 .cardbox{
     box-shadow: 2px 2px 8px black;
 }
+#error{
+    color: red;
+}
 /* 
 
 .login-box{
