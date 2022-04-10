@@ -13,7 +13,6 @@ login.addEventListener("click", function(e){
     error.innerHTML = "Invalid Password! Try Again.";
     document.getElementById("error").appendChild(error);
   }
-
   e.preventDefault();
 });
 
