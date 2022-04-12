@@ -16,6 +16,34 @@ login.addEventListener("click", function(e){
   e.preventDefault();
 });
 
+// ------> Student <------
+class Student {
+  constructor(name, roll, branch, email, no){
+    this.name = name;
+    this.roll = roll;
+    this.branch = branch;
+    this.email = email;
+    this.no = no;
+  }
+}
+let add = document.getElementById("add_student");
+add.addEventListener("submit", addStudent());
+
+const addStudent = (e) =>{
+  console.log("donr");
+  // let name = document.getElementById("studname").value;
+  // let roll = document.getElementById("studroll").value;
+  // let branch = document.getElementById("studbranch").value;
+  // let email = document.getElementById("studemail").value;
+  // let no  = document.getElementById("studno").value;
+  
+  // let student  = new Student (name, roll, branch, email, no);
+  // console.log(student);
+   
+  e.preventDefault();
+}
+
+
 
 
 
