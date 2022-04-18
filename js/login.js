@@ -6,7 +6,7 @@ login.addEventListener("click", function(e){
   let pass = document.getElementById("passtxt").value;
 
   if(user == 'parassahu' && pass =='12345678' ){
-    window.location.href="/dash.html";
+    window.location.href="dash.html";
   }
   else{
     const error = document.createElement("p");
